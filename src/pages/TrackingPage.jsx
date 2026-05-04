@@ -4,6 +4,24 @@ import Navbar from '../components/Navbar'
 
 export default function TrackingPage() {
   const { state } = useLocation()
+  // Fullscreen effect: triggers on first user click
+  useEffect(() => {
+    const handleFullScreen = () => {
+      const elem = document.documentElement;
+      if (elem.requestFullscreen) {
+        elem.requestFullscreen();
+      } else if (elem.mozRequestFullScreen) { /* Firefox */
+        elem.mozRequestFullScreen();
+      } else if (elem.webkitRequestFullscreen) { /* Chrome, Safari & Opera */
+        elem.webkitRequestFullscreen();
+      } else if (elem.msRequestFullscreen) { /* IE/Edge */
+        elem.msRequestFullscreen();
+      }
+      document.removeEventListener('click', handleFullScreen);
+    };
+    document.addEventListener('click', handleFullScreen);
+    return () => document.removeEventListener('click', handleFullScreen);
+  }, []);
   const booking = state?.booking || {}
   const mapRef = useRef(null)
   const mapInstance = useRef(null)

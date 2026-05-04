@@ -31,12 +31,12 @@ export default function HomePage() {
   const [openFaq, setOpenFaq] = useState(null)
 
   return (
-    <div className="font-sans">
+    <div className="font-sans w-full overflow-x-hidden">
       <Navbar />
 
       {/* Hero */}
-      <section className="pt-16 bg-gradient-to-br from-red-600 via-red-700 to-red-900 text-white min-h-screen flex items-center">
-        <div className="max-w-7xl mx-auto px-4 py-20 grid md:grid-cols-2 gap-12 items-center">
+      <section className="pt-16 bg-red-600 text-white min-h-screen flex items-center w-full">
+        <div className="w-full px-16 py-20 grid md:grid-cols-2 gap-12 items-center">
           <div>
             <span className="inline-block bg-red-500 bg-opacity-40 text-red-100 text-xs font-semibold px-3 py-1 rounded-full mb-4 uppercase tracking-wide">
               #1 Doorstep Vehicle Service
@@ -57,7 +57,7 @@ export default function HomePage() {
               </a>
             </div>
             <div className="flex gap-8 mt-10">
-              {[['10K+', 'Happy Customers'], ['500+', 'Expert Mechanics'], ['4.8★', 'App Rating']].map(([num, label]) => (
+              {[['10K+', 'Happy Customers'], ['500+', 'Expert Mechanics'], ['4.8★', 'App Rating'], ['20+', 'Cities']].map(([num, label]) => (
                 <div key={label}>
                   <div className="text-2xl font-bold text-yellow-300">{num}</div>
                   <div className="text-red-200 text-xs">{label}</div>
@@ -81,12 +81,12 @@ export default function HomePage() {
       </section>
 
       {/* Services */}
-      <section id="services" className="py-20 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-4">
+      <section id="services" className="py-20 bg-gray-50 w-full">
+        <div className="w-full px-16">
           <div className="text-center mb-12">
             <span className="text-red-600 font-semibold text-sm uppercase tracking-wide">What We Offer</span>
             <h2 className="text-3xl md:text-4xl font-extrabold text-gray-900 mt-2">Our Services</h2>
-            <p className="text-gray-500 mt-3 max-w-xl mx-auto">All services performed at your home, office or wherever you are.</p>
+            <p className="text-gray-500 mt-3">All services performed at your home, office or wherever you are.</p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {services.map(s => (
@@ -106,8 +106,8 @@ export default function HomePage() {
       </section>
 
       {/* Our Process */}
-      <section id="process" className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-4">
+      <section id="process" className="py-20 bg-white w-full">
+        <div className="w-full px-16">
           <div className="text-center mb-12">
             <span className="text-red-600 font-semibold text-sm uppercase tracking-wide">How It Works</span>
             <h2 className="text-3xl md:text-4xl font-extrabold text-gray-900 mt-2">Our Process</h2>
@@ -130,8 +130,8 @@ export default function HomePage() {
       </section>
 
       {/* About Us */}
-      <section id="about" className="py-20 bg-red-600 text-white">
-        <div className="max-w-7xl mx-auto px-4 grid md:grid-cols-2 gap-12 items-center">
+      <section id="about" className="py-20 bg-red-600 text-white w-full">
+        <div className="w-full px-16 grid md:grid-cols-2 gap-12 items-center">
           <div>
             <span className="text-red-200 font-semibold text-sm uppercase tracking-wide">Who We Are</span>
             <h2 className="text-3xl md:text-4xl font-extrabold mt-2 mb-6">About Ride N Repair</h2>
@@ -172,8 +172,8 @@ export default function HomePage() {
       </section>
 
       {/* FAQ */}
-      <section id="faq" className="py-20 bg-gray-50">
-        <div className="max-w-3xl mx-auto px-4">
+      <section id="faq" className="py-20 bg-gray-50 w-full">
+        <div className="w-full px-16">
           <div className="text-center mb-12">
             <span className="text-red-600 font-semibold text-sm uppercase tracking-wide">Got Questions?</span>
             <h2 className="text-3xl md:text-4xl font-extrabold text-gray-900 mt-2">Frequently Asked Questions</h2>
@@ -202,8 +202,8 @@ export default function HomePage() {
       </section>
 
       {/* Contact */}
-      <section id="contact" className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-4 text-center">
+      <section id="contact" className="py-20 bg-white w-full">
+        <div className="w-full px-16 text-center">
           <h2 className="text-3xl md:text-4xl font-extrabold text-gray-900 mb-4">Get In Touch</h2>
           <p className="text-gray-500 mb-10">We're here to help 24/7. Reach us by phone, email or book online.</p>
           <div className="flex flex-wrap justify-center gap-6">
