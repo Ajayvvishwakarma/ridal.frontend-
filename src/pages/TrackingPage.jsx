@@ -2,6 +2,8 @@ import React, { useState, useEffect, useRef } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import Navbar from '../components/Navbar'
 
+
+
 export default function TrackingPage() {
   const { state } = useLocation()
   // Fullscreen effect: triggers on first user click
