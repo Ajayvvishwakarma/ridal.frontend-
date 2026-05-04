@@ -116,12 +116,12 @@ const App = () => {
             <div className="footer-col">
               <h4>Our Instagram</h4>
               <div className="instagram-grid">
-                <img src="https://picsum.photos/seed/inst1/150/150" alt="Instagram" className="insta-img" />
-                <img src="https://picsum.photos/seed/inst2/150/150" alt="Instagram" className="insta-img" />
-                <img src="https://picsum.photos/seed/inst3/150/150" alt="Instagram" className="insta-img" />
-                <img src="https://picsum.photos/seed/inst4/150/150" alt="Instagram" className="insta-img" />
-                <img src="https://picsum.photos/seed/5663/150/150" alt="Instagram" className="insta-img" />
-                <img src="https://picsum.photos/seed/inst6/150/150" alt="Instagram" className="insta-img" />
+                <img src="https://images.unsplash.com/photo-1489824904134-891ab64532f1?w=150&h=150&fit=crop" alt="Instagram" className="insta-img" />
+                <img src="https://images.unsplash.com/photo-1609440226919-fe7b9c25e541?w=150&h=150&fit=crop" alt="Instagram" className="insta-img" />
+                <img src="https://images.unsplash.com/photo-1552820728-8ac41f1ce891?w=150&h=150&fit=crop" alt="Instagram" className="insta-img" />
+                <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=150&h=150&fit=crop" alt="Instagram" className="insta-img" />
+                <img src="https://images.unsplash.com/photo-1487754180144-351b8e906e8f?w=150&h=150&fit=crop" alt="Instagram" className="insta-img" />
+                <img src="https://images.unsplash.com/photo-1552512019-4a632b6a4d82?w=150&h=150&fit=crop" alt="Instagram" className="insta-img" />
               </div>
             </div>
           </div>

@@ -44,7 +44,7 @@ const Home = () => {
         <div className="container">
           <div className="about-content">
             <div className="about-img-wrapper">
-              <img src="https://picsum.photos/seed/garixabout/600/500" alt="About Garix" className="about-img" />
+              <img src="https://images.unsplash.com/photo-1487754180144-351b8e906e8f?w=600&h=500&fit=crop" alt="About Garix" className="about-img" />
               <div className="experience-badge">
                 <span>10+</span>
                 <span style={{fontSize: '14px', fontFamily: 'var(--font-body)'}}>Years of<br />Experience</span>
@@ -192,28 +192,28 @@ const Home = () => {
           </div>
           <div className="team-grid">
             <div className="team-card">
-              <img src="https://picsum.photos/seed/mech1/400/500" alt="Team Member" className="team-img" />
+              <img src="https://images.unsplash.com/photo-1552820728-8ac41f1ce891?w=400&h=500&fit=crop" alt="Team Member" className="team-img" />
               <div className="team-info">
                 <h3>Roger Lyod</h3>
                 <span className="team-role">Senior Mechanic</span>
               </div>
             </div>
             <div className="team-card">
-              <img src="https://picsum.photos/seed/mech2/400/500" alt="Team Member" className="team-img" />
+              <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=500&fit=crop" alt="Team Member" className="team-img" />
               <div className="team-info">
                 <h3>Steve Roger</h3>
                 <span className="team-role">Car Engineer</span>
               </div>
             </div>
             <div className="team-card">
-              <img src="https://picsum.photos/seed/mech3/400/500" alt="Team Member" className="team-img" />
+              <img src="https://images.unsplash.com/photo-1609440226919-fe7b9c25e541?w=400&h=500&fit=crop" alt="Team Member" className="team-img" />
               <div className="team-info">
                 <h3>Bony Stark</h3>
                 <span className="team-role">Auto Manager</span>
               </div>
             </div>
             <div className="team-card">
-              <img src="https://picsum.photos/seed/mech4/400/500" alt="Team Member" className="team-img" />
+              <img src="https://images.unsplash.com/photo-1487754180144-351b8e906e8f?w=400&h=500&fit=crop" alt="Team Member" className="team-img" />
               <div className="team-info">
                 <h3>Bruce Wayne</h3>
                 <span className="team-role">Technician</span>
@@ -234,7 +234,7 @@ const Home = () => {
               <i className="fas fa-quote-left quote-icon"></i>
               <p style={{color:'#bbb'}}>"Excellent service! They fixed my car quickly and price was very reasonable. Highly recommended for anyone looking for honest mechanics."</p>
               <div className="client-info">
-                <img src="https://picsum.photos/seed/avatar1/100/100" alt="Client" className="client-img" />
+                <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&h=100&fit=crop" alt="Client" className="client-img" />
                 <div>
                   <h5 style={{marginBottom:'0'}}>Sarah Jenkins</h5>
                   <span style={{fontSize:'12px', color:'#777'}}>Car Owner</span>
@@ -245,7 +245,7 @@ const Home = () => {
               <i className="fas fa-quote-left quote-icon"></i>
               <p style={{color:'#bbb'}}>"I was impressed by professionalism and transparency of process. No hidden fees, just great work on my suspension."</p>
               <div className="client-info">
-                <img src="https://picsum.photos/seed/avatar2/100/100" alt="Client" className="client-img" />
+                <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop" alt="Client" className="client-img" />
                 <div>
                   <h5 style={{marginBottom:'0'}}>Mike Ross</h5>
                   <span style={{fontSize:'12px', color:'#777'}}>Local Driver</span>
@@ -256,7 +256,7 @@ const Home = () => {
               <i className="fas fa-quote-left quote-icon"></i>
               <p style={{color:'#bbb'}}>"The team at Garix really knows their stuff. My car runs like new after their service. The 7-day availability is a lifesaver."</p>
               <div className="client-info">
-                <img src="https://picsum.photos/seed/avatar3/100/100" alt="Client" className="client-img" />
+                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop" alt="Client" className="client-img" />
                 <div>
                   <h5 style={{marginBottom:'0'}}>Emily Clark</h5>
                   <span style={{fontSize:'12px', color:'#777'}}>Business Woman</span>

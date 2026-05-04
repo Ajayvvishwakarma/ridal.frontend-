@@ -2,19 +2,19 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 const products = [
-  { id: 1,  title: 'BMW Car Lexus GS Steering Wheel Black Color',       price: 154, old: 200, img: 'https://picsum.photos/seed/shop1/400/300',  category: 'Steering', tag: 'Sale' },
-  { id: 2,  title: 'Luxury Car Custom Wheel Rim Alloy Black Color',      price: 189, old: 250, img: 'https://picsum.photos/seed/shop2/400/300',  category: 'Wheels',   tag: 'New' },
-  { id: 3,  title: 'Automobile And Car Tire Brake (Black & Red)',        price: 120, old: 180, img: 'https://picsum.photos/seed/shop3/400/300',  category: 'Brakes',   tag: 'Sale' },
-  { id: 4,  title: 'Chevrolet Buick Sonic Car Engine (ECOTECH)',         price: 499, old: 650, img: 'https://picsum.photos/seed/shop4/400/300',  category: 'Engine',   tag: 'Hot' },
-  { id: 5,  title: 'BMW Car Lexus GS Steering Wheel Chrome Edition',     price: 210, old: 280, img: 'https://picsum.photos/seed/shop5/400/300',  category: 'Steering', tag: '' },
-  { id: 6,  title: 'Custom Nice Car Shock Absorber Suspension',          price: 154, old: 200, img: 'https://picsum.photos/seed/shop6/400/300',  category: 'Suspension', tag: 'Sale' },
-  { id: 7,  title: 'BMW Premium Alloy Sport Steering Wheel',             price: 175, old: 220, img: 'https://picsum.photos/seed/shop7/400/300',  category: 'Steering', tag: '' },
-  { id: 8,  title: 'Toyota Car Hankook Tire Wheel',                     price: 98,  old: 140, img: 'https://picsum.photos/seed/shop8/400/300',  category: 'Wheels',   tag: 'Sale' },
-  { id: 9,  title: 'BMW Car Lexus GS Steering Carbon Fiber',            price: 230, old: 300, img: 'https://picsum.photos/seed/shop9/400/300',  category: 'Steering', tag: 'New' },
-  { id: 10, title: 'Luxury Car Custom Wheel Rim Alloy Gold Color',       price: 210, old: 270, img: 'https://picsum.photos/seed/shop10/400/300', category: 'Wheels',   tag: '' },
-  { id: 11, title: 'BMW Awesome And Nice Car Air Filter',                price: 45,  old: 75,  img: 'https://picsum.photos/seed/shop11/400/300', category: 'Engine',   tag: 'Sale' },
-  { id: 12, title: 'Automobile And Car Tire Brake Sport Edition',        price: 135, old: 190, img: 'https://picsum.photos/seed/shop12/400/300', category: 'Brakes',   tag: '' },
-  { id: 13, title: 'Performance Exhaust System Stainless Steel',         price: 320, old: 420, img: 'https://picsum.photos/seed/shop13/400/300', category: 'Engine',   tag: 'Hot' },
+  { id: 1,  title: 'BMW Car Lexus GS Steering Wheel Black Color',       price: 154, old: 200, img: 'https://images.unsplash.com/photo-1489824904134-891ab64532f1?w=400&h=300&fit=crop',  category: 'Steering', tag: 'Sale' },
+  { id: 2,  title: 'Luxury Car Custom Wheel Rim Alloy Black Color',      price: 189, old: 250, img: 'https://images.unsplash.com/photo-1609440226919-fe7b9c25e541?w=400&h=300&fit=crop',  category: 'Wheels',   tag: 'New' },
+  { id: 3,  title: 'Automobile And Car Tire Brake (Black & Red)',        price: 120, old: 180, img: 'https://images.unsplash.com/photo-1552820728-8ac41f1ce891?w=400&h=300&fit=crop',  category: 'Brakes',   tag: 'Sale' },
+  { id: 4,  title: 'Chevrolet Buick Sonic Car Engine (ECOTECH)',         price: 499, old: 650, img: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=300&fit=crop',  category: 'Engine',   tag: 'Hot' },
+  { id: 5,  title: 'BMW Car Lexus GS Steering Wheel Chrome Edition',     price: 210, old: 280, img: 'https://images.unsplash.com/photo-1487754180144-351b8e906e8f?w=400&h=300&fit=crop',  category: 'Steering', tag: '' },
+  { id: 6,  title: 'Custom Nice Car Shock Absorber Suspension',          price: 154, old: 200, img: 'https://images.unsplash.com/photo-1552512019-4a632b6a4d82?w=400&h=300&fit=crop',  category: 'Suspension', tag: 'Sale' },
+  { id: 7,  title: 'BMW Premium Alloy Sport Steering Wheel',             price: 175, old: 220, img: 'https://images.unsplash.com/photo-1617469767053-d3b523a0b982?w=400&h=300&fit=crop',  category: 'Steering', tag: '' },
+  { id: 8,  title: 'Toyota Car Hankook Tire Wheel',                     price: 98,  old: 140, img: 'https://images.unsplash.com/photo-1638913662196-0201872e8e8d?w=400&h=300&fit=crop',  category: 'Wheels',   tag: 'Sale' },
+  { id: 9,  title: 'BMW Car Lexus GS Steering Carbon Fiber',            price: 230, old: 300, img: 'https://images.unsplash.com/photo-1542282088-fe8426682b8f?w=400&h=300&fit=crop',  category: 'Steering', tag: 'New' },
+  { id: 10, title: 'Luxury Car Custom Wheel Rim Alloy Gold Color',       price: 210, old: 270, img: 'https://images.unsplash.com/photo-1606664515524-2ddc6298996f?w=400&h=300&fit=crop', category: 'Wheels',   tag: '' },
+  { id: 11, title: 'BMW Awesome And Nice Car Air Filter',                price: 45,  old: 75,  img: 'https://images.unsplash.com/photo-1608231917486-849be73231dc?w=400&h=300&fit=crop', category: 'Engine',   tag: 'Sale' },
+  { id: 12, title: 'Automobile And Car Tire Brake Sport Edition',        price: 135, old: 190, img: 'https://images.unsplash.com/photo-1581235720704-06d3acfcb36f?w=400&h=300&fit=crop', category: 'Brakes',   tag: '' },
+  { id: 13, title: 'Performance Exhaust System Stainless Steel',         price: 320, old: 420, img: 'https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=400&h=300&fit=crop', category: 'Engine',   tag: 'Hot' },
 ];
 
 const categories = ['All', 'Steering', 'Wheels', 'Brakes', 'Engine', 'Suspension'];
@@ -84,7 +84,7 @@ const ShopPage = () => {
       {/* ── HERO BANNER ── */}
       <section style={{
         marginTop: '70px',
-        backgroundImage: "linear-gradient(rgba(0,0,0,0.78),rgba(0,0,0,0.78)), url('https://picsum.photos/seed/shopbanner/1920/600')",
+        backgroundImage: "linear-gradient(rgba(0,0,0,0.78),rgba(0,0,0,0.78)), url('https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=1920&h=600&fit=crop')",
         backgroundSize: 'cover', backgroundPosition: 'center', padding: '90px 0', textAlign: 'center',
       }}>
         <div className="container">

@@ -131,7 +131,7 @@ header {
 
 /* --- HERO --- */
 .hero {
-  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://picsum.photos/seed/garixhero/1920/1080');
+  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1489824904134-891ab64532f1?w=1920&h=1080&fit=crop');
   background-size: cover;
   background-position: center;
   padding: 180px 0 100px;
@@ -208,7 +208,7 @@ header {
 
 /* --- COUNTERS --- */
 .counters {
-  background: url('https://picsum.photos/seed/garixbg/1920/600') fixed center/cover;
+  background: url('https://images.unsplash.com/photo-1552820728-8ac41f1ce891?w=1920&h=600&fit=crop') fixed center/cover;
   position: relative;
   padding: 80px 0;
 }

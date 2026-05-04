@@ -78,37 +78,37 @@ const ServicesPage = () => {
 
   const projectDetails = {
     wash: {
-      img: 'https://picsum.photos/seed/wash1/700/480',
+      img: 'https://images.unsplash.com/photo-1601584942197-04bbb2f551b8?w=700&h=480&fit=crop',
       title: 'Premium Wash Service',
       desc: 'Our full-detail wash service removes dirt, grime and contaminants from every surface — interior and exterior. Using pH-balanced, eco-friendly products, we hand-wash, clay-bar, polish and seal your paintwork to a showroom finish.',
       features: ['Hand Wash & Dry', 'Clay Bar Treatment', 'Paint Polish', 'Wax & Sealant', 'Interior Vacuum', 'Dashboard Condition'],
     },
     cooling: {
-      img: 'https://picsum.photos/seed/cooling1/700/480',
+      img: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=700&h=480&fit=crop',
       title: 'Cooling System Service',
       desc: 'Overheating causes serious engine damage. Our cooling system service covers radiator flush, thermostat inspection, coolant top-up, water pump check and hose integrity testing to keep your engine at optimal temperature.',
       features: ['Radiator Flush', 'Coolant Top-Up', 'Thermostat Check', 'Water Pump Inspect', 'Hose Inspection', 'Pressure Test'],
     },
     wheels: {
-      img: 'https://picsum.photos/seed/wheels1/700/480',
+      img: 'https://images.unsplash.com/photo-1609440226919-fe7b9c25e541?w=700&h=480&fit=crop',
       title: 'Wheel & Tyre Service',
       desc: 'From puncture repair to full tyre replacement, our wheel service covers everything. Computer-assisted balancing and 4-wheel alignment ensure even wear, better fuel economy and a smooth, safe ride.',
       features: ['4-Wheel Alignment', 'Tyre Balancing', 'Puncture Repair', 'Tyre Rotation', 'TPMS Reset', 'Rim Inspection'],
     },
     brake: {
-      img: 'https://picsum.photos/seed/brake1/700/480',
+      img: 'https://images.unsplash.com/photo-1552820728-8ac41f1ce891?w=700&h=480&fit=crop',
       title: 'Brake System Service',
       desc: 'Your safety depends on reliable brakes. We inspect and service every component — pads, rotors, callipers, brake lines and ABS module — using OEM-grade parts backed by our 6-month warranty.',
       features: ['Pad Replacement', 'Rotor Resurface', 'Calliper Service', 'Fluid Flush', 'ABS Diagnostics', 'Handbrake Adjust'],
     },
     cleaning: {
-      img: 'https://picsum.photos/seed/clean1/700/480',
+      img: 'https://images.unsplash.com/photo-1487754180144-351b8e906e8f?w=700&h=480&fit=crop',
       title: 'Deep Interior Cleaning',
       desc: 'Restore your cabin to factory-fresh condition. Our deep-clean package includes steam cleaning of seats and carpets, leather conditioning, odour elimination, air vent cleaning and full glass polishing inside and out.',
       features: ['Steam Clean Seats', 'Carpet Shampoo', 'Leather Condition', 'Odour Removal', 'Vent Cleaning', 'Glass Polish'],
     },
     suspension: {
-      img: 'https://picsum.photos/seed/susp1/700/480',
+      img: 'https://images.unsplash.com/photo-1552512019-4a632b6a4d82?w=700&h=480&fit=crop',
       title: 'Suspension Overhaul',
       desc: 'A worn suspension affects handling, tyre wear and passenger comfort. Our technicians inspect and replace shocks, struts, springs, bushings and control arms — restoring precise control and a comfortable ride.',
       features: ['Shock Absorbers', 'Strut Replacement', 'Spring Inspection', 'Bushing Replace', 'Control Arms', 'Ride Height Check'],
@@ -118,9 +118,9 @@ const ServicesPage = () => {
   const [activeTab, setActiveTab] = useState('wash');
 
   const blogs = [
-    { img: 'https://picsum.photos/seed/blog1/600/400', date: 'January 15, 2026', title: '10 Signs Your Car Needs an Immediate Service', tag: 'Maintenance' },
-    { img: 'https://picsum.photos/seed/blog2/600/400', date: 'February 3, 2026',  title: 'Synthetic vs Conventional Oil: Which Is Right For You?', tag: 'Oil & Engine' },
-    { img: 'https://picsum.photos/seed/blog3/600/400', date: 'March 20, 2026',    title: 'How to Extend the Life of Your Brakes', tag: 'Brakes' },
+    { img: 'https://images.unsplash.com/photo-1486262715619-3417ca499161?w=600&h=400&fit=crop', date: 'January 15, 2026', title: '10 Signs Your Car Needs an Immediate Service', tag: 'Maintenance' },
+    { img: 'https://images.unsplash.com/photo-1557821552-17105176677c?w=600&h=400&fit=crop', date: 'February 3, 2026',  title: 'Synthetic vs Conventional Oil: Which Is Right For You?', tag: 'Oil & Engine' },
+    { img: 'https://images.unsplash.com/photo-1552512019-4a632b6a4d82?w=600&h=400&fit=crop', date: 'March 20, 2026',    title: 'How to Extend the Life of Your Brakes', tag: 'Brakes' },
   ];
 
   const active = projectDetails[activeTab];
@@ -131,7 +131,7 @@ const ServicesPage = () => {
       <section
         style={{
           marginTop: '70px',
-          backgroundImage: "linear-gradient(rgba(0,0,0,0.78),rgba(0,0,0,0.78)), url('https://picsum.photos/seed/servicesbanner/1920/600')",
+          backgroundImage: "linear-gradient(rgba(0,0,0,0.78),rgba(0,0,0,0.78)), url('https://images.unsplash.com/photo-1487754180144-351b8e906e8f?w=1920&h=600&fit=crop')",
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           padding: '90px 0',

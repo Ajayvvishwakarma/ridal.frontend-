@@ -4,10 +4,10 @@ const About = () => {
   const [openFaq, setOpenFaq] = useState(null);
 
   const teamMembers = [
-    { name: 'James Wilson', role: 'Master Technician', img: 'https://picsum.photos/seed/team1/400/400' },
-    { name: 'Robert Chen', role: 'Engine Specialist', img: 'https://picsum.photos/seed/team2/400/400' },
-    { name: 'Maria Garcia', role: 'Electrical Expert', img: 'https://picsum.photos/seed/team3/400/400' },
-    { name: 'David Kumar', role: 'Diagnostics Lead', img: 'https://picsum.photos/seed/team4/400/400' },
+    { name: 'James Wilson', role: 'Master Technician', img: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop' },
+    { name: 'Robert Chen', role: 'Engine Specialist', img: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop' },
+    { name: 'Maria Garcia', role: 'Electrical Expert', img: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&fit=crop' },
+    { name: 'David Kumar', role: 'Diagnostics Lead', img: 'https://images.unsplash.com/photo-1552820728-8ac41f1ce891?w=400&h=400&fit=crop' },
   ];
 
   const faqs = [
@@ -32,7 +32,7 @@ const About = () => {
         style={{
           marginTop: '70px',
           background: 'linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)) center/cover',
-          backgroundImage: "linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url('https://picsum.photos/seed/aboutbanner/1920/600')",
+          backgroundImage: "linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url('https://images.unsplash.com/photo-1489824904134-891ab64532f1?w=1920&h=600&fit=crop')",
           padding: '80px 0',
           textAlign: 'center',
         }}
@@ -63,13 +63,13 @@ const About = () => {
             {/* Left: Images stacked */}
             <div className="about-img-wrapper" style={{ position: 'relative', paddingBottom: '40px', paddingRight: '40px' }}>
               <img
-                src="https://picsum.photos/seed/aboutmain1/600/420"
+                src="https://images.unsplash.com/photo-1487754180144-351b8e906e8f?w=600&h=420&fit=crop"
                 alt="Garix Workshop"
                 className="about-img"
                 style={{ borderRadius: '4px', width: '100%' }}
               />
               <img
-                src="https://picsum.photos/seed/aboutmain2/260/200"
+                src="https://images.unsplash.com/photo-1552820728-8ac41f1ce891?w=260&h=200&fit=crop"
                 alt="Garix Team"
                 style={{
                   position: 'absolute',
@@ -251,7 +251,7 @@ const About = () => {
       <section
         id="appointment-form"
         style={{
-          background: 'linear-gradient(rgba(0,0,0,0.85),rgba(0,0,0,0.85)), url(https://picsum.photos/seed/appointbg/1920/600) center/cover fixed',
+          background: 'linear-gradient(rgba(0,0,0,0.85),rgba(0,0,0,0.85)), url(https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1920&h=600&fit=crop) center/cover fixed',
           padding: '80px 0',
         }}
       >
@@ -316,9 +316,9 @@ const About = () => {
           </div>
           <div className="testimonial-grid">
             {[
-              { name: 'Michael B.', role: 'BMW Owner', img: 'https://picsum.photos/seed/client1/100/100', text: 'Garix completely transformed how I think about car servicing. The transparency, speed, and professionalism are unmatched. My BMW has never run better.' },
-              { name: 'Sarah L.', role: 'Toyota Driver', img: 'https://picsum.photos/seed/client2/100/100', text: 'I was nervous about a complex engine issue, but the team diagnosed and fixed it in under 24 hours. Honest pricing, zero hidden fees. Highly recommended!' },
-              { name: 'David R.', role: 'Ford Owner', img: 'https://picsum.photos/seed/client3/100/100', text: 'The 6-month warranty gave me total peace of mind. They even called to follow up a week after the repair. Real customer care — not just lip service.' },
+              { name: 'Michael B.', role: 'BMW Owner', img: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&h=100&fit=crop', text: 'Garix completely transformed how I think about car servicing. The transparency, speed, and professionalism are unmatched. My BMW has never run better.' },
+              { name: 'Sarah L.', role: 'Toyota Driver', img: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop', text: 'I was nervous about a complex engine issue, but the team diagnosed and fixed it in under 24 hours. Honest pricing, zero hidden fees. Highly recommended!' },
+              { name: 'David R.', role: 'Ford Owner', img: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop', text: 'The 6-month warranty gave me total peace of mind. They even called to follow up a week after the repair. Real customer care — not just lip service.' },
             ].map(t => (
               <div className="testimonial-card" key={t.name}>
                 <div className="quote-icon"><i className="fas fa-quote-left"></i></div>
@@ -352,7 +352,7 @@ const About = () => {
                 Have a question before booking? We have answered the most common ones below. Still not sure? Give us a call anytime.
               </p>
               <img
-                src="https://picsum.photos/seed/faqimg/500/380"
+                src="https://images.unsplash.com/photo-1609440226919-fe7b9c25e541?w=500&h=380&fit=crop"
                 alt="FAQ"
                 style={{ borderRadius: '4px', width: '100%', objectFit: 'cover' }}
               />
