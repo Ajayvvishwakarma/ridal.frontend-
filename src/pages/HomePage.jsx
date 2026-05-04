@@ -35,24 +35,24 @@ export default function HomePage() {
       <Navbar />
 
       {/* Hero */}
-      <section className="pt-16 bg-red-600 text-white min-h-screen flex items-center w-full">
+      <section className="pt-16 bg-blue-600 text-white min-h-screen flex items-center w-full">
         <div className="w-full px-16 py-20 grid md:grid-cols-2 gap-12 items-center">
           <div>
-            <span className="inline-block bg-red-500 bg-opacity-40 text-red-100 text-xs font-semibold px-3 py-1 rounded-full mb-4 uppercase tracking-wide">
+            <span className="inline-block bg-blue-500 bg-opacity-40 text-blue-100 text-xs font-semibold px-3 py-1 rounded-full mb-4 uppercase tracking-wide">
               #1 Doorstep Vehicle Service
             </span>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight mb-6">
               Vehicle Repair <br />
               <span className="text-yellow-300">At Your Doorstep</span>
             </h1>
-            <p className="text-red-100 text-lg mb-8 leading-relaxed">
+            <p className="text-blue-100 text-lg mb-8 leading-relaxed">
               Expert mechanics come to you. No garage visits, no towing. Doorstep car & bike service anywhere, anytime.
             </p>
             <div className="flex flex-wrap gap-4">
-              <Link to="/booking" className="bg-white text-red-600 font-bold px-8 py-3 rounded-xl hover:bg-yellow-300 hover:text-red-700 transition text-base shadow-lg">
+              <Link to="/booking" className="bg-white text-blue-600 font-bold px-8 py-3 rounded-xl hover:bg-yellow-300 hover:text-blue-700 transition text-base shadow-lg">
                 Book Now — Free Visit
               </Link>
-              <a href="tel:+911203615050" className="border-2 border-white text-white font-semibold px-8 py-3 rounded-xl hover:bg-white hover:text-red-600 transition text-base">
+              <a href="tel:+911203615050" className="border-2 border-white text-white font-semibold px-8 py-3 rounded-xl hover:bg-white hover:text-blue-600 transition text-base">
                 📞 Call Us
               </a>
             </div>
@@ -60,7 +60,7 @@ export default function HomePage() {
               {[['10K+', 'Happy Customers'], ['500+', 'Expert Mechanics'], ['4.8★', 'App Rating'], ['20+', 'Cities']].map(([num, label]) => (
                 <div key={label}>
                   <div className="text-2xl font-bold text-yellow-300">{num}</div>
-                  <div className="text-red-200 text-xs">{label}</div>
+                  <div className="text-blue-200 text-xs">{label}</div>
                 </div>
               ))}
             </div>
@@ -72,7 +72,7 @@ export default function HomePage() {
                 <div className="text-center">
                   <div className="text-8xl mb-2">🔧</div>
                   <p className="text-white font-bold text-lg">Expert Mechanic</p>
-                  <p className="text-red-200 text-sm">At Your Location</p>
+                  <p className="text-blue-200 text-sm">At Your Location</p>
                 </div>
               </div>
             </div>
