@@ -8,6 +8,9 @@ import BlogPage from './pages/BlogPage';
 import BookingPage from './pages/BookingPage';
 import LocationStep from './components/LocationStep';
 import TrackingPage from './pages/TrackingPage';
+import ContactPage from './pages/ContactPage';
+import CartPage from './pages/CartPage';
+import CheckoutPage from './pages/CheckoutPage';
 
 
 const App = () => {
@@ -27,8 +30,9 @@ const App = () => {
             <Link to="/booking">Booking</Link>
             <Link to="/tracking">Tracking</Link>
             <Link to="/shop">Shop</Link>
+            <Link to="/cart">Cart</Link>
             <a href="/blog">Blog</a>
-            <a href="/">Contact</a>
+            <Link to="/contact">Contact</Link>
           </nav>
 
           <div className="header-info">
@@ -55,6 +59,9 @@ const App = () => {
         <Route path="/blog"     element={<BlogPage />} />
         <Route path="/booking"  element={<BookingPage />} />
         <Route path="/tracking" element={<TrackingPage />} />
+        <Route path="/contact"  element={<ContactPage />} />
+        <Route path="/cart"     element={<CartPage />} />
+        <Route path="/checkout" element={<CheckoutPage />} />
       </Routes>
 
       {/* --- FOOTER (GLOBAL) --- */}
@@ -81,7 +88,7 @@ const App = () => {
                 <li><Link to="/shop">Shop</Link></li>
                 <li><Link to="/tracking">Tracking</Link></li>
                 <li><a href="/blog">Blog</a></li>
-                <li><a href="/">Contact</a></li>
+                <li><Link to="/contact">Contact</Link></li>
               </ul>
             </div>
 

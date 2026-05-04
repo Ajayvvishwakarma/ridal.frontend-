@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const products = [
   { id: 1,  title: 'BMW Car Lexus GS Steering Wheel Black Color',       price: 154, old: 200, img: 'https://picsum.photos/seed/shop1/400/300',  category: 'Steering', tag: 'Sale' },
@@ -188,9 +189,9 @@ const ShopPage = () => {
                       <span>TOTAL</span>
                       <span style={{ color: 'var(--primary-color)' }}>${cartTotal}</span>
                     </div>
-                    <button className="btn" style={{ width: '100%', marginTop: '14px', textAlign: 'center' }}>
+                    <Link to="/checkout" className="btn" style={{ width: '100%', marginTop: '14px', textAlign: 'center', display: 'block' }}>
                       Checkout →
-                    </button>
+                    </Link>
                   </>
                 )}
               </div>
